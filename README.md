@@ -62,6 +62,12 @@ npm run compile
 ```
 - Run test:
 ```
+-for window:
+
+set TS_NODE_TRANSPILE_ONLY=1
+npx hardhat test
+
+-else
 npm run test
 ```
 - Deploy
